@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yetibles - Adventure Awaits</title>
+  <style>
+    /* Basic reset for styling */
+    body, h1, h2, h3, p, figure, figcaption {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: #ecae7d; /* Earthy retro background */
+    }
+
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+
+    /* Navigation styling */
+    nav {
+      background: #026c80;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.2rem;
+      margin: 0 1rem;
+    }
+
+    /* Header styling */
+    header {
+      background: url('path_to_background_image') no-repeat center center/cover;
+      color: #fff;
+      padding: 5rem 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      line-height: 1.2;
+    }
+
+    header p {
+      font-size: 1.3rem;
+      margin-top: 1rem;
+    }
+
+    /* Mission statement */
+    .mission {
+      padding: 2rem 0;
+      background-color: #8db4ad;
+      color: #fff;
+      text-align: center;
+    }
+
+    /* Product showcase */
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 2rem 0;
+    }
+
+    .product-item {
+      flex-basis: 30%;
+      margin: 1rem;
+      background: #fff;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .product-item img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* About us */
+    .about {
+      background-color: #064c72;
+      color: #fff;
+      padding: 2rem;
+      margin: 2rem 0;
+      text-align: center;
+    }
+
+    /* Contact section */
+    .contact {
+      background-color: #fff;
+      padding: 2rem 0;
+      text-align: center;
+    }
+
+    .contact-form {
+      background: #f4f4f4;
+      padding: 2rem;
+      margin-top: 1rem;
+    }
+
+    .contact-form input, 
+    .contact-form textarea {
+      width: 100%;
+      padding: 0.7rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .contact-form button {
+      background: #026c80;
+      color: #fff;
+      padding: 0.7rem 2rem;
+      border: none;
+      cursor: pointer;
+    }
+
+    /* Footer */
+    footer {
+      background: #333;
+      color: #fff;
+      padding: 1rem 0;
+      text-align: center;
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="container">
+      <a href="#home">Home</a>
+      <a href="#products">Products</a>
+      <a href="#about">About Us</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Header / Banner -->
+  <header id="home">
+    <div class="container">
+      <h1>Adventure Awaits</h1>
+      <p>Embark on your journey to wellness with Yetibles.</p>
+    </div>
+  </header>
+
+  <!-- Mission Section -->
+  <section class="mission">
+    <div class="container">
+      <h2>Our Mission</h2>
+      <p>In the center of every remarkable business, there lies a concept that gave rise to a product, 
+      a product that nurtured values, and values that cultivated an exceptional brand.</p>
+    </div>
+  </section>
+
+  <!-- Product Showcase -->
+  <section class="products" id="products">
+    <div class="container">
+      <div class="product-item">
+        <img src="path_to_placeholder_image" alt="CBD Gummies">
+        <h3>Gourmet CBD Gummies</h3>
+        <p>Our gourmet CBD gummies are made using the finest ingredients, perfect for vegans and wellness enthusiasts.</p>
+      </div>
+      <!-- Add more product items here -->
+    </div>
+  </section>
+
+  <!-- About Us Section -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2>About Yetibles</h2>
+      <p>Yetibles: Inspired by nature, validated by science. We believe in finding the perfect product for your wellness journey, all while seeking the elusive Yeti.</p>
+    </div>
+  </section>
+
+  <!-- Contact Us Section -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>Join the Yeti tribe - we’re here to help!</p>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <p>&copy; 2024 Yetibles. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
